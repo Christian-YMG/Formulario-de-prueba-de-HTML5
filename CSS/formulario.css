@@ -123,15 +123,17 @@ label:first-of-type{
     .form{
     width: 275px;
     height: 550px;
-    display: flex;
+    }
+
+    .nombre_form{
+        height: 30px;
+        font-size: 20px;
     }
 
     input{
         height: 20px;
         width: 200px;
         font-size: 12px;
-        background-color: transparent;
-        outline: none;
     }
 
     label:first-of-type{
@@ -141,14 +143,10 @@ label:first-of-type{
     label{
         height: 20px;
         font-size: 14px;
-        font-weight: bold;
     }
 
     ::-webkit-input-placeholder{
-        text-indent: 10px;
-        font-weight: lighter;
         font-size: 12px;
-        color: var(--color-secundario);
     }
 
     [type="submit"]{
